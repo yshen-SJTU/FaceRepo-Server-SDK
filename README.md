@@ -1,5 +1,5 @@
 # FaceRepo Server SDK
-The SDK is used to develop a face repository server that can be deployed to a CPU server. A face repository is a graph in its data. Each node in the graph is a face's feature (vector), and the link between two nodes indicates their distance. The SDK is based on hnsw and provides C and Java APIs of repository management and KNN search for similar faces.
+The SDK is used to develop a face repository server that can be deployed to a CPU server. A face repository is a graph in its data. Each node in the graph is a face's feature (vector), and the link between two nodes helps ANN query. The SDK is based on hnsw and provides C and Java APIs of repository management and KNN search for similar faces.
 
 
 ## Deployment
